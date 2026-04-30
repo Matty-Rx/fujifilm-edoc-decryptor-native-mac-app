@@ -1,0 +1,333 @@
+@charset "shift_jis";
+
+/*-----------------------------------------------
+ __default style clear
+-----------------------------------------------*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:white;
+	font-size:74.5%;
+	font-family:verdana,"ƒqƒ‰ƒMƒmŠpƒS Pro W3","Hiragino Kaku Gothic Pro",Osaka,Meiryo,"‚l‚r ‚oƒSƒVƒbƒN","MS PGothic",Sans-Serif;
+	color:#333;
+	line-height:1.5;
+}
+
+html {
+	overflow-y:scroll;
+}
+
+p {
+	margin:0 0 0.5em;
+}
+
+li {
+    line-height:1.3;
+}
+
+img,
+fieldset {
+	border:0;
+}
+
+/*-----------------------------------------------
+ __Base Link Color Setting
+-----------------------------------------------*/
+
+a {
+}
+
+a:link {
+}
+
+a:visited {
+}
+
+a:hover {
+}
+
+a:active {
+}
+
+
+/*-----------------------------------------------
+ __container
+-----------------------------------------------*/
+
+#container {
+	width:1024px;
+	min-width:500px;
+	margin:10px auto 0;
+}
+
+/*-----------------------------------------------
+ __header
+-----------------------------------------------*/
+
+#header {
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:5px;
+	height:70px;
+	background:#D5BAE6;
+}
+
+#header h1 {
+	padding:5px 15px 5px;
+	font-size:18px;
+}
+
+#header p#siteDescription {
+	margin:0;
+	padding:0 15px 10px 30px;
+	font-size:14px;
+}
+
+#header ul {
+	margin:0 auto 5px;
+	text-align:left;
+	padding-bottom:5px;
+}
+
+#header ul li {
+	display:inline;
+	margin-right:5px;
+	padding-left:10px;
+	line-height:1.1;
+	border-left:1px solid #333;
+	font-size:14px;
+}
+
+#header ul li.utilityHome {
+	border-left:0;
+}
+
+/*-----------------------------------------------
+ __footer
+-----------------------------------------------*/
+
+#footer {
+	clear:both;
+	margin-right:5px;
+	padding:5px 0 10px 0;
+	background:#D5BAE6;
+}
+
+
+#footer p#copyright {
+	text-align:center;
+	margin-bottom:0;
+	font-size:smaller;
+}
+
+
+/* __main
+------------------------------------------*/
+
+#main {
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+	padding:5px 5px 5px 5px;
+	background:#F9F9F9;
+	color:black;
+}
+
+#main h2 {
+	font-size:140%;
+	background-color:#A4E9FF;
+	border-bottom:2px solid #6699ff;
+	margin-bottom:10px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#main h3 {
+	font-size:120%;
+	border-bottom:2px solid #6699ff;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#main h4 {
+	font-size:120%;
+}
+
+#main a {
+	color:blue;
+}
+
+#main ol {
+	margin-left:2em;
+	padding-left:0.5em;
+}
+
+#main ul {
+	margin-left:2em;
+	padding-left:0.5em;
+	list-style-type:disc;
+}
+
+#main ul ul {
+	list-style-type:circle;
+}
+
+#main ul ul ul {
+	list-style-type:square;
+}
+
+#main table {
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left: 0;
+	margin-right: 0;
+ 	border-collapse: collapse;
+ 	border: 1px solid #000000;
+	text-align:left;
+	font-size:100%;
+}
+
+#main thead {
+	font-weight: bold;
+}
+
+#main th {
+	padding:0 3px 0 3px;
+ 	border: 1px solid #000000;
+	background:#E3EEFF;
+}
+
+#main td {
+	padding:0 3px 0 3px;
+ 	border: 1px solid #000000;
+}
+
+#main #rep .ollevel2 {
+	margin-left:0px;
+	padding-left:30px;
+	float:left;
+}
+
+#biz table{
+	border-style: none;
+}
+#biz th{
+	border-style: none;
+}
+#biz td{
+	border-style: none;
+}
+
+.decl {
+	font-weight: bold;
+}
+
+.yn {
+	margin-bottom:0; 
+	margin-top:0; 
+	padding: 0 0 0 0;
+}
+
+.yn-no {
+	color:blue; 
+	font-weight:bold; 
+	text-decoration:underline;
+	cursor:hand;
+}
+
+.yn-yes {
+	margin-top:.2em;
+	color:blue; 
+	font-weight:bold;
+}
+
+.no-branch {
+	margin-left:2em; 
+	margin-top:0; 
+	padding: 0 0 0 0;
+}
+
+.no-branch-line {
+	margin-left:7pt; 
+	margin-top:0; 
+	border-left-style:solid; 
+	border-left-width:.5pt;
+	padding: 0 0 0 0;
+}
+
+.table-scrolling-div {
+	width:100%;
+}
+
+.imageArea {
+	width:100%;
+}
+
+.imageAreaRep {
+	overflow:auto;
+	width:512;
+}
+
+.imageAreaAdj {
+	overflow:auto;
+}
+
+#main #bsd .imageArea {
+	overflow:scroll;
+}
+
+.warning-caution {
+	color:red;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.note {
+	color:blue;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.aim-reference {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+#pldiv, #pldiv table
+{
+    width : 300px;
+}
+
+/* __sub
+------------------------------------------*/
+
+#sub {
+	width:175px;
+	margin:5px 0 0 5px;
+	padding:5px;
+	background:#F3F3F3;
+	word-wrap:break-word;
+}
+
+#sub h3 {
+	font-size:100%;
+}
+
+#sub li {
+	list-style:none;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+#sub ul{
+	margin-left:0px;
+}
+
+#sub ul ul{
+	margin-left:10px;
+}
